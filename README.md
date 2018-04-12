@@ -4,7 +4,7 @@
 
 
 
-## KChris の 计划
+## 进度
 
 - Stack
 - Queue
@@ -68,4 +68,5 @@ npm install babel-preset-dev --save-dev
 2018-4-12
 
 - Stack
+- Queue
 
