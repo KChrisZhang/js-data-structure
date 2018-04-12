@@ -1,29 +1,28 @@
-
-export default class Stack {
+export default class Queue {
   constructor () {
-    this._name = 'Stack'
+    this._name = "Queue"
   }
   init () {
     this._items = []
   }
-  push (item) {
+  enqueue (item) {
     this._items.push(item)
     return this._items
   }
-  pop () {
+  dequeue () {
     if (this._items.length === 0) {
-      console.log('Stack is null.')
+      console.log('Queue is null.')
     } else {
-      this._items.pop()
+      this._items.shift()
     }
     return this._items
   }
-  top () {
+  front () {
     if (this._items.length === 0) {
-      console.log('Stack is null.')
+      console.log('Stack is null')
       return 'undefined'
     }
-    return this._items[this._items.length - 1]
+    return this._items[0]
   }
   isEmpty () {
     return this._items.length === 0
