@@ -1,0 +1,23 @@
+{
+  "name": "js-data-structure",
+  "version": "1.0.0",
+  "description": "javascript data structure demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KChrisZhang/js-data-structure.git"
+  },
+  "author": "KChris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KChrisZhang/js-data-structure/issues"
+  },
+  "homepage": "https://github.com/KChrisZhang/js-data-structure#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3"
+  }
+}
