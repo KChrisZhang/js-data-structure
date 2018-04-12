@@ -6,10 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KChrisZhang/js-data-structure.git"
-  },
   "author": "KChris",
   "license": "ISC",
   "bugs": {

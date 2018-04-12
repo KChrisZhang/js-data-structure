@@ -16,4 +16,4 @@ class Stack
 - top() => item
 - isEmpty() => boolean
 - size() => int
-
+- clear() => Stack
