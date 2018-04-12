@@ -12,10 +12,10 @@
 
 class Stack
 
-- init() => Stack
-- push(item) => Stack
-- pop() => Stack
+- init() => Stack:[]item
+- push(item) => Stack:[]item
+- pop() => Stack:[]item
 - top() => item
 - isEmpty() => boolean
 - size() => int
-- clear() => Stack
+- clear() => Stack:[]item
